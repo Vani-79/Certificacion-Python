@@ -1,0 +1,2 @@
+Para Comentar rapidamente un bloque entero es CTRL+K luego CTRL+C
+Para Descomentar rapidamente un bloque entero es CTRL+K luego CTRL+U 
