@@ -31,3 +31,14 @@ print("La longitud de la hipotenusa es:", hypo)
 cat_a = float(input("Ingresa la longitud del primer cateto: "))
 cat_b = float(input("Ingresa la longitud del segundo cateto: "))
 print("La longitud de la hipotenusa es:", hypo)
+
+#Ejemplo con Cadenas de Texto
+nombre = input("¿Me puedes dar tu nombre por favor? ")
+apellido = input("¿Me puedes dar tu apellido por favor? ")
+print("Gracias. ")
+print("\nTu nombre es " + nombre + " " + apellido+ ".")
+
+#Al Multiplicar un Numero por una Cadena este se convierte en una replicacion, por ejemplo este codigo dibujara un cuadrado
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
