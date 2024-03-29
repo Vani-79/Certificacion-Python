@@ -42,3 +42,39 @@ print("\nTu nombre es " + nombre + " " + apellido+ ".")
 print("+" + 10 * "-" + "+")
 print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
+
+a = float(input("Ingresa el primer valor: "))
+b = float(input("Ingresa el segundo valor: "))
+
+#Operaciones con las mismas variables ingresadas por un input
+a = float(input("Ingresa el primer valor: "))
+b = float(input("Ingresa el segundo valor: "))
+#Suma 
+print("\nEl resultado de la suma es = ", a+b)
+#Resta
+print("El resultado de la resta es = ",a-b)
+#Multiplicacion
+print("El resultado de la multiplicacion es = ",a*b)
+#Division
+print("El resultado de la division es = ",a/b)
+print("¡Eso es todo, amigos!")
+
+#Ejercicio 1
+
+#Utiliza la siguiente Formula:1./(x + 1./(x + 1./(x + 1./x))) y mira los resultados a los que llegas utilizando los datos: 1, 10, 100, -5
+x = float(input("Ingresa el valor para x: "))
+y = 1./(x + 1./(x + 1./(x + 1./x)))
+print("y =", y)
+
+#Ejercicio 2
+
+#Calcula a que hora terminara un evento si tienes la hora en que inicia, los minutos en que inicia y cuanto dura (en minutos) usando los 3 datos por separado
+hour = int(input("Hora de inicio (horas): "))
+mins = int(input("Minuto de inicio (minutos): "))
+dura = int(input("Duración del evento (minutos): "))
+mins = mins + dura # encuentra el número total de minutos
+hour = hour + mins // 60 # encuentra el número de horas ocultas en los minutos y actualiza las horas
+mins = mins % 60 # corrige los minutos para que estén en un rango de (0..59)
+hour = hour % 24 # corrige las horas para que estén en un rango de (0..23) 
+print("El evento acaba a las = ",hour, ":", mins, sep='')
+
