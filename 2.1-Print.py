@@ -24,3 +24,6 @@ print("Monty", "Python.", sep="*", end="*\n")
 
 print("Programming","Essentials","in", sep="***",end="...")
 print("Python")
+
+# Para hacer un print multilinea se ocupa triple comilla ("""  Hola  """)
+
