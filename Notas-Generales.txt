@@ -1,2 +1,6 @@
 Comentar  CTRL+K + CTRL+C
 Descomentar  CTRL+K + CTRL+U 
+Alt y Flechitas para mover una linea de codigo entera
+Shift + Alt para copiar una linea de codigo entera y pegarla abajo
+CTRL + Shift para seleccionar texto y flechitas para mover la cantidad que quiero
+\ Nos permite seguir el codigo que deberia ir en una misma linea en la linea de abajo (se debe poner en el final de la primera linea)
