@@ -62,7 +62,7 @@ else:
 if tax < 0.0:
 	tax = 0.0
 
-tax = round(tax, 0)
+tax = round(tax)  
 print("El impuesto es:", tax, "pesos")
 
 #Ejercicio Comprobar si un año ingresado por consola pertenece o no a al Calendario Gregoriano y si pertenece clasificar que tipo de año es
